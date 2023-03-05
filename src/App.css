@@ -65,7 +65,7 @@
 }
 
 .menu-subtitle:focus {
-  color: gray;
+  color: rgb(31, 202, 102);
 }
 
 @media (prefers-reduced-motion: no-preference) {
