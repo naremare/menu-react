@@ -51,6 +51,16 @@
   transition: .5s;
 }
 
+.item_name {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.description {
+  font-size: small;
+}
+
 .menu-subtitle {
   color: #fff;
   border: none;
