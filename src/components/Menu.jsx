@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { data } from '../assets/data.js';
-// import Items from './Items';
+import './Menu.media.css';
 
 const Menu = () => {
   const firstKey = Object.keys(data)[0]
