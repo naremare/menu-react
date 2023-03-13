@@ -29,7 +29,7 @@ const Menu = () => {
                   <span>{i.name}</span>
                   <span className="description">{i.description}</span>
                 </div>
-                <span>{i.price}</span>
+                <span>{i.price} ₽</span>
               </li>
             ))}
           </ul>
