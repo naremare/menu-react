@@ -49,12 +49,21 @@
   justify-content: space-between;
   margin-bottom: 10px;
   transition: .5s;
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 7px;
 }
 
 .item_name {
   display: flex;
   flex-direction: column;
   align-items: start;
+  width: 80%;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
 }
 
 .description {

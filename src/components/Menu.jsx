@@ -29,7 +29,10 @@ const Menu = () => {
                   <span>{i.name}</span>
                   <span className="description">{i.description}</span>
                 </div>
-                <span>{i.price} ₽</span>
+                <div className="columns">
+                  <span>{i.serving}</span>
+                  <span>{i.price} ₽</span>
+                </div>
               </li>
             ))}
           </ul>
