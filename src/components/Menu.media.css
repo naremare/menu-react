@@ -1,0 +1,29 @@
+@media (max-width: 788px) {
+  .menu {
+    width: 95%;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .titles {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+  } 
+  .menu-subtitle {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 2px 5px;
+    margin-right: 10px;
+    width: auto;
+  }
+
+  .items {
+    width: 100%;
+  }
+}
