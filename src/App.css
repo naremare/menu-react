@@ -63,7 +63,7 @@
 .columns {
   display: flex;
   justify-content: space-between;
-  width: 10%;
+  width: 25%;
 }
 
 .description {
