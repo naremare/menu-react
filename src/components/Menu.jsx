@@ -30,8 +30,8 @@ const Menu = () => {
                   <span className="description">{i.description}</span>
                 </div>
                 <div className="columns">
-                  <span>{i.serving}</span>
-                  <span>{i.price} ₽</span>
+                  <span>{i.serving ? i.serving : i.price.min}</span>
+                  <span>{i.price.max ? i.price.max : i.price} ₽</span>
                 </div>
               </li>
             ))}
