@@ -821,7 +821,7 @@ export const data = {
       "serving": "350 мл",
       "price": 420
     },
-    ,{
+    {
       "name": "Глинтвейн",
       "description": "(сухое красное вино, мед, специи)",
       "serving": "200 мл",
