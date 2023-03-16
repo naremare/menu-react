@@ -727,8 +727,10 @@ export const data = {
   ],
   "Пиво": [
     {
-      "serving": "300 мл",
-      "price": 500,
+      "volume": {
+        "min": "300 мл",
+        "max": "500 мл"
+      }
     },
     {
       "name": "Шпатен",
