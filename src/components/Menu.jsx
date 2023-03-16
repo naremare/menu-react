@@ -29,10 +29,21 @@ const Menu = () => {
                   <span>{i.name}</span>
                   <span className="description">{i.description}</span>
                 </div>
-                <div className="columns">
-                  <span>{i.serving ? i.serving : i.price.min}</span>
-                  <span>{i.price.max ? i.price.max : i.price} ₽</span>
-                </div>
+                {
+                  i.volume ?
+                  (
+                    <div className="columns">
+                      <span>{i.volume.min}</span>
+                      <span>{i.volume.max}</span>
+                    </div>
+                  ) : 
+                  (
+                    <div className="columns">
+                      <span>{i.serving ? i.serving : i.price.min}</span>
+                      <span>{i.price.max ? i.price.max : i.price} ₽</span>
+                    </div>
+                  )
+                }
               </li>
             ))}
           </ul>
