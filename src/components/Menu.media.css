@@ -12,6 +12,7 @@
     width: 100%;
     height: auto;
     overflow: scroll;
+    margin-bottom: 20px;
   } 
   .menu-subtitle {
     border: 1px solid #fff;
@@ -21,6 +22,7 @@
     padding: 2px 5px;
     margin-right: 10px;
     width: auto;
+    white-space: nowrap;
   }
 
   .items {
