@@ -28,4 +28,8 @@
   .items {
     width: 100%;
   }
+
+  .name {
+    font-size: 1rem;
+  }
 }
