@@ -9,3 +9,9 @@
   margin-bottom: 30px;
   border: 1px solid white;
 }
+
+@media (max-width: 500px) {
+  .gallery-img {
+  width: 90%;
+}
+}
