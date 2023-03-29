@@ -1,8 +1,12 @@
 import React from 'react'
+import Maps from '../Maps/Map'
+import './Booking.css'
 
 const Booking = () => {
   return (
-    <div>Booking</div>
+    <div className="booking">
+      <Maps />
+    </div>
   )
 }
 
