@@ -4,6 +4,22 @@
     justify-content: space-around;
 }
 
+.logo {
+    width: 30%;
+}
+
+.logo-img {
+    width: 40%;
+    /* filter: drop-shadow(0 0 10px #add8e6);
+    overflow: visible; */
+}
+
+.nav-links {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
 a {
     color: white;
     text-decoration: none;
