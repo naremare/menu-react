@@ -1,4 +1,17 @@
 .booking {
   width: 100%;
   height: 50vh;
+  display: flex;
+}
+
+.contacts, 
+.map-wrapper {
+  flex: 1;
+}
+
+@media (max-width: 35rem) {
+  .booking {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -5,9 +5,14 @@ import './Booking.css'
 const Booking = () => {
   return (
     <div className="booking">
-      <Maps />
+      <div className="contacts">
+        Наши контакты
+      </div>
+      <div className="map-wrapper">
+        <Maps />
+      </div>
     </div>
-  )
+  );
 }
 
 export default Booking
