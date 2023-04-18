@@ -4,11 +4,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* outline: 1px solid wheat; */
+  height: 60dvh;
+}
+
+.image-gallery-image {
+  /* outline: 2px solid green; */
+  height: 70dvh;
 }
 
 .image-gallery {
   width: 100%;
-  height: 90dvh;
+  height: 100;
 }
 
 .gallery-img {
@@ -21,4 +28,8 @@
   .gallery-img {
   width: 90%;
 }
+}
+
+nav.image-gallery-thumbnails-container {
+  height: 10dvh;
 }
