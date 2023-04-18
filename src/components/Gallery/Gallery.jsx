@@ -1,13 +1,12 @@
 import React from 'react'
 import './Gallery.css'
 import { gallery } from '../../assets/gallery'
+import ImageGallery from 'react-image-gallery';
 
 const Gallery = () => {
   return (
     <div className="gallery">
-      {gallery.map((item) => (
-        <img className="gallery-img" src={item.img} alt="" />
-      ))}
+      <ImageGallery items={gallery} lazyLoad={true} />
     </div>
   )
 }
