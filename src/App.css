@@ -42,6 +42,9 @@
 
 .items {
   width: 80%;
+  height: calc(100dvh - 100px);
+  overflow-y: scroll;
+  overscroll-behavior: contain;
 }
 
 .menu-title {
@@ -93,3 +96,4 @@
 .menu-subtitle:focus {
   color: rgb(31, 202, 102);
 }
+
