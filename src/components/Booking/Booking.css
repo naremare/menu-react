@@ -11,10 +11,9 @@
   /* flex: 1; */
 /* } */ 
 
-@media (max-width: 35rem) {
+@media (max-width: 37.5rem) {
   .booking {
-    grid-template-columns: none;
-    grid-template-rows: 100px 200px;
+    grid-template-columns: 1fr;
     height: 70vh;
     width: auto;
   }
