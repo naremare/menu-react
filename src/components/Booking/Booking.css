@@ -1,6 +1,7 @@
 .booking {
   width: 100%;
-  height: 50vh;
+  height: 70vh;
+  height: 70dvh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -12,7 +13,9 @@
 
 @media (max-width: 35rem) {
   .booking {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: none;
+    grid-template-rows: 100px 200px;
+    height: 70vh;
+    width: auto;
   }
 }

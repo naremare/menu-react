@@ -10,6 +10,7 @@
 
 .image-gallery-image {
   /* outline: 2px solid green; */
+  height: 70vh;
   height: 70dvh;
 }
 
@@ -31,5 +32,6 @@
 }
 
 nav.image-gallery-thumbnails-container {
+  height: 10vh;
   height: 10dvh;
 }
