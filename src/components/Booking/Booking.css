@@ -1,20 +1,26 @@
 .booking {
-  width: 100%;
-  height: 70vh;
-  height: 70dvh;
+  height: 80vh;
+  height: 80dvh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
+h1 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
 /* .contacts, 
 .map-wrapper {
   /* flex: 1; */
 /* } */ 
+.contacts {
+  padding: 50px;
+}
 
 @media (max-width: 37.5rem) {
   .booking {
     grid-template-columns: 1fr;
-    height: 70vh;
-    width: auto;
+    grid-template-rows: 1fr 1fr;
+    /* height: 70vh; */
   }
 }
