@@ -6,6 +6,9 @@
 
 .logo {
     width: 30%;
+    position: absolute;
+    left: 10px;
+    top: 5px;
 }
 
 .logo-img {
@@ -17,14 +20,15 @@
 .nav-links {
     width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
 }
 
 a {
     color: white;
     text-decoration: none;
     margin: 25px 0 25px 0;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 10px;
     padding: 10px 15px;
 }
