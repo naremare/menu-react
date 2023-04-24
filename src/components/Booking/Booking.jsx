@@ -1,6 +1,7 @@
 import React from 'react'
 import Maps from '../Maps/Map'
 import './Booking.css'
+import { SocialIcon } from "react-social-icons";
 
 const Booking = () => {
   return (
@@ -21,9 +22,7 @@ const Booking = () => {
         <br />
         <p>
           Мы есть в Инстаграме:
-          <a href="">
-            <img src="https://icons8.ru/icon/M486asakOqWV/instagram" alt="" />
-          </a>
+          <SocialIcon url="https://instagram.com/nelli.rest?igshid=YmMyMTA2M2Y=" target={'_blank'} className="icon"></SocialIcon>
         </p>
       </div>
       <div className="map-wrapper">
