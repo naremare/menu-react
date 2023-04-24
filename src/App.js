@@ -1,7 +1,7 @@
 import "./App.css";
 import Menu from "./components/Menu/Menu";
 import NavBar from "./components/NavBar/NavBar";
-import image from "./assets/images/image.WEBP.jpeg";
+import image from "./assets/images/IMG_8303.WEBP";
 import { Route, Routes } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import Booking from "./components/Booking/Booking";

@@ -17,7 +17,7 @@ const NavBar = () => {
             </div>
             <div className="nav-links">
                 <NavLink to="/menu-react">Меню</NavLink>
-                <NavLink to="/gallery">Галлерея</NavLink>
+                <NavLink to="/gallery">Галерея</NavLink>
                 <NavLink to="/booking">Бронирование</NavLink>
             </div>
         </div>
