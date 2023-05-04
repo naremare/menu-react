@@ -1,6 +1,6 @@
 .booking {
-  height: 80vh;
-  height: 80dvh;
+  height: 70vh;
+  height: 70dvh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -13,6 +13,10 @@ h1 {
 .map-wrapper {
   /* flex: 1; */
 /* } */ 
+.ymaps {
+ 
+}
+
 .contacts {
   padding: 50px;
 }

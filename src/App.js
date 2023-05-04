@@ -5,6 +5,7 @@ import image from "./assets/images/IMG_8303.WEBP";
 import { Route, Routes } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import Booking from "./components/Booking/Booking";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
@@ -20,13 +21,15 @@ function App() {
     >
       <div className="bg-color">
         <div className="menu">
-          {/* <h1 className="menu-title">Ресторан "Нелли"</h1> */}
-          <NavBar />
-          <Routes>
-            <Route exact path='/menu-react' element={<Menu />} />
-            <Route path='/gallery' element={<Gallery />} />
-            <Route path='/booking' element={<Booking />} />
-          </Routes>
+          <div>
+            <NavBar />
+            <Routes>
+              <Route exact path="/home" element={<Home />} />
+              <Route path="/menu-react" element={<Menu />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/booking" element={<Booking />} />
+            </Routes>
+          </div>
         </div>
       </div>
     </div>
