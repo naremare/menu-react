@@ -24,8 +24,8 @@ function App() {
           <div>
             <NavBar />
             <Routes>
-              <Route exact path="/home" element={<Home />} />
-              <Route path="/menu-react" element={<Menu />} />
+              <Route exact path="/menu-react" element={<Home />} />
+              <Route path="/menu" element={<Menu />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/booking" element={<Booking />} />
             </Routes>

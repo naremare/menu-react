@@ -15,8 +15,8 @@ const NavBar = () => {
                 </svg>
             </div>
             <div className="nav-links">
-                <NavLink to="/home">Главная</NavLink>
-                <NavLink to="/menu-react">Меню</NavLink>
+                <NavLink to="/menu-react">Главная</NavLink>
+                <NavLink to="/menu">Меню</NavLink>
                 <NavLink to="/gallery">Галерея</NavLink>
                 <NavLink to="/booking">Бронирование</NavLink>
             </div>
