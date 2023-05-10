@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <div>
         <h1>
-          Добро пожаловать в ресторан <span className="name">"Нелли"</span>
+          Добро пожаловать в ресторан <span className="restaurant-name">"Нелли"</span>
         </h1>
         <p className="cursive">Вкусно есть не запретишь!</p>
         <div className="flex-items">
