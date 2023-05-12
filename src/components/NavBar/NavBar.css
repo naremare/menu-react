@@ -1,10 +1,13 @@
 .nav {
     display: flex;
-    width: 100%;
+    width: 100vw;
     justify-content: space-around;
     background: linear-gradient(rgba(0 0 0 / 80%), rgba(0 0 0 / 60%));
     margin-top: 20px;
     margin-bottom: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .logo {
