@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -11,10 +12,10 @@ const Home = () => {
         <p className="cursive">Вкусно есть не запретишь!</p>
         <div className="flex-items">
           <p className="flex-item">
-            <a href="./Menu" className="link">Меню</a>
+            <NavLink to="/menu-react" className="link">Меню</NavLink>
           </p>
           <p className="flex-item">
-            <a href="./Booking" className="link">Забронировать</a>
+            <NavLink to="/booking" className="link">Бронирование</NavLink>
           </p>
         </div>
       </div>
