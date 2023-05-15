@@ -19,19 +19,15 @@ function App() {
   return (
     <div className="App">
       <div className="bg-color">
-      {
-        isOpen && (
-          <div className="burger-links">
+        <div className="menu">
+          <NavBar toggleMenu={toggleMenu} isOpen={isOpen} />
+          <div className={isOpen ? "burger-links" : "none"} >
             <NavLink to="/menu-react" onClick={toggleMenu}>Главная</NavLink>
             <NavLink to="/menu" onClick={toggleMenu}>Меню</NavLink>
             <NavLink to="/gallery" onClick={toggleMenu}>Галерея</NavLink>
             <NavLink to="/booking" onClick={toggleMenu}>Бронирование</NavLink>
           </div>
-        )
-      }
-        <div className="menu">
-          <div>
-            <NavBar toggleMenu={toggleMenu} isOpen={isOpen} />
+          <div className={isOpen ? "components activate" : "components"}>
             <Routes>
               <Route exact path="/menu-react" element={<Home />} />
               <Route path="/menu" element={<Menu />} />
