@@ -9,6 +9,7 @@ h1 {
 .home {
     font-size: 3em;
     font-weight: 800;
+    margin-top: 10%;
 }
 
 .restaurant-name {
@@ -16,27 +17,29 @@ h1 {
 }
 
 .home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70dvh;
+    display: grid;
+    height: calc(70dvh-40px);
 }
 
-.flex-items {
-    display: flex;
-    justify-content: center;
+.grid-items {
+    display: grid;
     padding: 30px;
     gap: 10px;
+    grid-template-columns: 8ch 8ch;
+    place-content: center;
 }
 
-.flex-item {
+.grid-item {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 50px;
     border: 2px solid var(--ochra);
     padding: 1rem;
     border-radius: 20px;
     font-size: 1.5rem;
 }
 
-.flex-item:hover {
+.grid-item:hover {
     background-color: var(--ochra);
     transition: 0.3s;
 }
@@ -49,5 +52,12 @@ h1 {
     font-style: italic;
     font-family: cursive;
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 500px) {
+    .grid-items {
+        grid-template-columns: 1fr;
+    }
 }

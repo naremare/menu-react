@@ -9,12 +9,16 @@ const Home = () => {
         <h1>
           Добро пожаловать в ресторан <span className="restaurant-name">"Нелли"</span>
         </h1>
-        <p className="cursive">Вкусно есть не запретишь!</p>
-        <div className="flex-items">
-          <p className="flex-item">
+        <blockquote>
+        <p className="cursive">"Полный желудок равен хорошему настроению, а пустой — унынию и ссорам."
+
+- Джоан Роулинг</p>
+        </blockquote>
+        <div className="grid-items">
+          <p className="grid-item">
             <NavLink to="/menu-react" className="link">Меню</NavLink>
           </p>
-          <p className="flex-item">
+          <p className="grid-item">
             <NavLink to="/booking" className="link">Бронирование</NavLink>
           </p>
         </div>

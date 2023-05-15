@@ -20,12 +20,14 @@ html {
   height: 100dvh;
   background: linear-gradient(rgba(0 0 0 / 80%), rgba(0 0 0 / 30%));
   overflow: scroll;
+  position: relative;
 }
 
 .menu {
   width: 90%;
-  height: 100vh;
-  height: 100dvh;
+  height: 80vh;
+  height: 80dvh;
+  margin-top: 100px;
 }
 
 .main {

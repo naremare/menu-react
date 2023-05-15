@@ -6,8 +6,15 @@ import { Route, Routes } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import Booking from "./components/Booking/Booking";
 import Home from "./components/Home/Home";
+import { useState } from "react";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div
       className="App"
@@ -22,7 +29,7 @@ function App() {
       <div className="bg-color">
         <div className="menu">
           <div>
-            <NavBar />
+            <NavBar toggleMenu={toggleMenu}/>
             <Routes>
               <Route exact path="/menu-react" element={<Home />} />
               <Route path="/menu" element={<Menu />} />
