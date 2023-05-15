@@ -40,7 +40,7 @@ a {
     padding-inline: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 788px) {
     .nav {
         justify-content: center;
     }
@@ -50,6 +50,6 @@ a {
     }
 
     .nav-links {
-        width: 100%
+        display: none;
     }
 }
