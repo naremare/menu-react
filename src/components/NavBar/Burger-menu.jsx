@@ -1,11 +1,10 @@
-import React, { useState } from "react";
 import "./Burger-menu.media.css"
 
-const BurgerMenu = (props) => {
+const BurgerMenu = ({toggleMenu, isOpen}) => {
 
   return (
     <div className="burger-menu">
-      <button className="burger-icon" onClick={props.toggleMenu}>
+      <button className="burger-icon" onClick={toggleMenu}>
         <span className="line"></span>
         <span className="line"></span>
         <span className="line"></span>
