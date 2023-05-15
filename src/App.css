@@ -9,6 +9,11 @@ html {
 
 .App {
   color: var(--text-color);
+  height: "100vh";
+  height: "100dvh";
+  background-image: url("./assets/images/IMG_8309.WEBP");
+  background-repeat: "no-repeat";
+  background-size: "cover";
 }
 
 .bg-color {
@@ -52,7 +57,7 @@ html {
 
 .items {
   width: 80%;
-  height: calc(100dvh - 100px);
+  height: calc(100dvh - 130px);
   overflow-y: scroll;
   overscroll-behavior: contain;
 }
@@ -80,6 +85,7 @@ html {
   -ms-flex-align: start; 
   align-items: flex-start;
   width: 80%;
+  text-align: initial;
 }
 
 .columns {
@@ -96,9 +102,10 @@ html {
   color: var(--text-color);
   border: none;
   background-color: transparent;
-  font-weight: bold;
-  font-size: 1.2rem;
+  /* font-weight: bold; */
+  font-size: 20px;
   transition: .5s;
+  text-align: left;
 }
 
 .menu-subtitle:hover {

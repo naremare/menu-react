@@ -1,6 +1,6 @@
 import "./Burger-menu.media.css"
 
-const BurgerMenu = ({toggleMenu, isOpen}) => {
+const BurgerMenu = ({toggleMenu}) => {
 
   return (
     <div className="burger-menu">

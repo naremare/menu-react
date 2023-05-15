@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import "./App.css";
 import Menu from "./components/Menu/Menu";
 import NavBar from "./components/NavBar/NavBar";
-import image from "./assets/images/IMG_8309.WEBP";
 import { Route, Routes } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import Booking from "./components/Booking/Booking";
@@ -18,16 +17,7 @@ function App() {
   };
 
   return (
-    <div
-      className="App"
-      style={{
-        height: "100vh",
-        height: "100dvh",
-        backgroundImage: `url(${image})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
+    <div className="App">
       <div className="bg-color">
       {
         isOpen && (

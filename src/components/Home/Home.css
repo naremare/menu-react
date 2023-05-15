@@ -6,26 +6,31 @@ h1 {
     font-size: 3rem;
 }
 
-.home {
-    font-size: 3em;
-    font-weight: 800;
-    margin-top: 10%;
-}
-
 .restaurant-name {
     color: var(--ochra);
 }
 
 .home {
     display: grid;
-    height: calc(70dvh-40px);
+    height: calc(70dvh-50px);
+    position: relative;
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 8rem;
+    place-items: center;
+}
+
+.welcoming {
+    display: grid;
+    place-items: center;
+    text-align: center;
 }
 
 .grid-items {
     display: grid;
     padding: 30px;
     gap: 10px;
-    grid-template-columns: 8ch 8ch;
+    grid-template-columns: repeat(2, minmax(50px, 15rem));
     place-content: center;
 }
 
@@ -59,5 +64,17 @@ h1 {
 @media (max-width: 500px) {
     .grid-items {
         grid-template-columns: 1fr;
+    }
+
+    .welcoming {
+        font-size: 2rem;
+    }
+
+    .grid-item {
+        font-size: 1rem;
+    }
+
+    .cursive {
+        font-size: 1rem;
     }
 }

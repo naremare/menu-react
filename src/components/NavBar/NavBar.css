@@ -11,7 +11,7 @@
 }
 
 .logo {
-    width: 30%;
+    width: 10rem;
     position: absolute;
     left: 10px;
     top: 5px;
@@ -40,13 +40,13 @@ a {
     padding-inline: 10px;
 }
 
+.nav-links a:hover {
+    color: var(--ochra)
+}
+
 @media (max-width: 788px) {
     .nav {
         justify-content: center;
-    }
-
-    .logo {
-        display: none;
     }
 
     .nav-links {
