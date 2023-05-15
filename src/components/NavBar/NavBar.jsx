@@ -3,7 +3,7 @@ import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 import BurgerMenu from "../NavBar/Burger-menu";
 
-const NavBar = ({toggleMenu}) => {
+const NavBar = ({toggleMenu, isOpen}) => {
     return (
         <div className="nav">
             <div className="logo">
@@ -21,7 +21,7 @@ const NavBar = ({toggleMenu}) => {
                 <NavLink to="/gallery">Галерея</NavLink>
                 <NavLink to="/booking">Бронирование</NavLink>
             </div>
-            <BurgerMenu toggleMenu={toggleMenu}/>
+            <BurgerMenu toggleMenu={toggleMenu} isOpen={isOpen} />
         </div>
     )
 }
