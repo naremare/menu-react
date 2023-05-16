@@ -35,6 +35,16 @@ html {
   margin-top: 100px;
 }
 
+.components {
+  z-index: 999;
+  transition: .3s;
+}
+
+.activate {
+  transition: .3s;
+  transform: translateY(30dvh);
+}
+
 .main {
   display: flex;
 }
