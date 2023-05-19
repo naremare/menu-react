@@ -2,6 +2,11 @@
   display: none;
 }
 
+.burger-links {
+    display: none;
+    position: absolute;
+}
+
 @media (max-width: 788px) {
   .burger-menu {
     display: block;
@@ -80,7 +85,7 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    z-index: 0;
+    z-index: 2;
   }
 }
 
