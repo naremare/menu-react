@@ -890,11 +890,13 @@ export const data = {
     {
       name: "Шпатен 0.45 мл",
       description: "(светлое, немецкое)",
+      serving: " ",
       price: 450,
     },
     {
       name: "Стелла 0.45 мл",
       description: "(светлое, безалкогольное)",
+      serving: " ",
       price: 250,
     },
     {
@@ -1028,30 +1030,37 @@ export const data = {
     },
     {
       name: "Текила Diego & Maria",
+      serving: " ",
       price: 470
     },
     {
       name: " Джин 'Бифитер'",
+      serving: " ",
       price: 600
     },
     {
       name: "Ром Carta Vieja",
       description: "(белый, черный)",
+      serving: " ",
       price: 470
     },
     {
       name: "Абсент",
+      serving: " ",
       price: 700
     },
     {
       name: "Мартини Бьянко",
+      serving: " ",
       price: 400
     },
     {
       name: "Бейлиз",
+      serving: " ",
       price: 400
     },    {
       name: "Бехеровка",
+      serving: " ",
       price: 500
     },
   ],
@@ -1063,26 +1072,32 @@ export const data = {
     },
     {
       name: "Чивас",
+      serving: " ",
       price: 1200
     },
     {
       name: "Блек Лейбл",
+      serving: " ",
       price: 1200
     },
     {
       name: "Джек Дениелс",
+      serving: " ",
       price: 1000
     },
     {
       name: "Джемесон",
+      serving: " ",
       price: 900
     },
     {
       name: "Балантайсл",
+      serving: " ",
       price: 700
     },
     {
       name: "Бонкерс",
+      serving: " ",
       price: 350
     },
   ], 
@@ -1101,20 +1116,451 @@ export const data = {
       },
     },
     {
-      name: "Крымская Ривьера",
-      description: "(разливное, светлое)",
+      name: "Черный дуб 4*",
       price: {
-        min: 130,
-        max: 200,
+        min: 340,
+        max: 1700,
       },
     },
     {
-      name: "Крымская Ривьера",
-      description: "(разливное, светлое)",
+      name: "Старый крым 5*",
       price: {
-        min: 130,
-        max: 200,
+        min: 360,
+        max: 1800,
       },
     }, 
+    {
+      name: "Коктебель 3*",
+      price: {
+        min: 300,
+        max: 1500,
+      },
+    }, 
+    {
+      name: "Коктебель 5* Резерв",
+      price: {
+        min: 500,
+        max: 2500,
+      },
+    }, 
+    {
+      name: "Арарат (3 года)",
+      price: {
+        min: 500,
+        max: 2500,
+      },
+    }, 
+    {
+      name: "Арарат (5 лет)",
+      price: {
+        min: 600,
+        max: 3000,
+      },
+    }, 
+    {
+      name: "Ани (6 лет)",
+      price: {
+        min: 700,
+        max: 3500,
+      },
+    }, 
+    {
+      name: "Ахтамар (10 лет)",
+      price: {
+        min: 1400,
+        max: 7000,
+      },
+    },
+    {
+      name: "Мартель VS",
+      price: {
+        min: 1400,
+        max: 7000,
+      },
+    }
+  ], 
+  "Инкерман": [
+    {
+      volume: {
+        min: "100 мл",
+        max: "1 бут."
+      }
+    },
+       {
+      name: "Алиготе",
+      description: "(белое, сухое)",
+      price: {
+        min: 180,
+        max: 1350,
+      },
+    },
+    {
+      name: "Легенда полуострова",
+      description: "(белое, полусладкое)",
+      price: {
+        min: 180,
+        max: 1350,
+      },
+    },
+    {
+      name: "Древний город",
+      description: "(красное, полусладкое",
+      price: {
+        min: 180,
+        max: 1350,
+      },
+    },
+    {
+      name: "Инкерман",
+      description: "(белое / красное, полусухое)",
+      price: {
+        min: 180,
+        max: 1350,
+      },
+    },
+    {
+      name: "Жемчужина Резерв",
+      description: "(белое, сухое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+       {
+      name: "Каберне Резерв",
+      description: "(красное, сухое)",
+      price: {
+        min: 220,
+        max: 1650,
+      },
+    }
+  ], 
+  "Вилла Крым": [
+    {
+      volume: {
+        min: "100 мл",
+        max: "1 бут."
+      }
+    },
+    {
+      name: "Шато Барон",
+      description: "(белое, полусладкое)",
+      price: {
+        min: 160,
+        max: 1200,
+      },
+    },
+    {
+      name: "Шевалье Руж",
+      description: "(красное, полусладкое)",
+      price: {
+        min: 160,
+        max: 1200,
+      },
+    },
+    {
+      name: "Мускат Ривьера",
+      description: "(розовое, полусладкое)",
+      price: {
+        min: 170,
+        max: 1275,
+      },
+    },
+    {
+      name: "Шардоне",
+      description: "(белое, сухое)",
+      price: {
+        min: 160,
+        max: 1200,
+      },
+    },
+        {
+      name: "Каберне",
+      description: "(красное, сухое)",
+      price: {
+        min: 170,
+        max: 1275,
+      },
+    }
+  ],
+    "Вина Грузии": [
+    {
+      volume: {
+        min: "100 мл",
+        max: "1 бут."
+      }
+    },
+    {
+      name: "Хванчкара",
+      description: "(красное, полусладкое)",
+      price: {
+        min: 460,
+        max: 3450,
+      },
+    },
+    {
+      name: "Киндзмараули",
+      description: "(красное, полусладкое)",
+      price: {
+        min: 330,
+        max: 2475,
+      },
+    },
+    {
+      name: "Алазанская долина",
+      description: "(белое / красное, полусладкое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+    {
+      name: "Мукузани",
+      description: "(красное, сухое)",
+      price: {
+        min: 300,
+        max: 2250,
+      },
+    },
+      {
+      name: "Саперави",
+      description: "(красное, сухое)",
+      price: {
+        min: 250,
+        max: 1875,
+      },
+    },
+    {
+      name: "Цинандали",
+      description: "(белое, сухое)",
+      price: {
+        min: 250,
+        max: 1875,
+      },
+    }
+  ],
+  "Водка": [
+    {
+      volume: {
+        min: "100 мл",
+        max: "500 мл"
+      }
+    },
+    {
+      name: "Немиров Оригинал",
+      price: {
+        min: 180,
+        max: 900,
+      },
+    },
+    {
+      name: "Царская Оригинал",
+      price: {
+        min: 300,
+        max: 1500,
+      },
+    },
+    {
+      name: "Абсолют",
+      price: {
+        min: 500,
+        max: 2500,
+      },
+    },
+    {
+      name: "Финляндия",
+      price: {
+        min: 550,
+        max: 2750,
+      },
+    },
+      {
+      name: "Граппа",
+      price: {
+        min: 350,
+        max: 1750,
+      },
+    }
+  ], 
+  "Игристые вина": [
+   {
+      volume: {
+        max: "1 бут."
+      },
+    },
+    {
+      name: "Новый свет",
+      description: "(белое брют, полусухое, полусладкое)",
+      serving: " ",
+      price: 1800
+    },
+    {
+      name: "Frizzante",
+      description: "(белое, сухое)",
+      serving: " ",
+      price: 1300
+    },
+    {
+      name: "Frizzante",
+      description: "(розовое, полусухое)",
+      serving: " ",
+      price: 1300
+    },
+    {
+      name: "Moscato",
+      description: "(белое, полусладкое)",
+      serving: " ",
+      price: 1300
+    },
+    {
+      name: "Инкерман",
+      description: "(белое / розовое брют / полусладкое)",
+      serving: " ",
+      price: 1200
+    }
+  ],
+  "ZB Wine": [
+    {
+      volume: {
+        min: "100 мл",
+        max: "1 бут."
+      }
+    },
+    {
+      name: "Локо Чимбали Оранж",
+      description: "(белое, сухое)",
+      price: {
+        min: 400,
+        max: 3000,
+      },
+    },
+    {
+      name: "Локо Чимбали Пино Менье",
+      description: "(красное, сухое)",
+      price: {
+        min: 400,
+        max: 3000,
+      },
+    },
+    {
+      name: "Совиньон Блан",
+      description: "(белое, сухое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+    {
+      name: "Розе",
+      description: "(розовое, сухое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+      {
+      name: "Рислинг",
+      description: "(белое, полусухое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+      {
+      name: "Мусккт",
+      description: "(белое, полусладкое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+      {
+      name: "Бастардо",
+      description: "(красное, полусладкое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    }
+  ],
+  "Массандра": [
+    {
+      volume: {
+        min: "100 мл",
+        max: "1 бут."
+      }
+    },
+    {
+      name: "Херес",
+      description: "(белое, сухое / крепленое)",
+      price: {
+        min: 240,
+        max: 1800,
+      },
+    },
+    {
+      name: "Мадера",
+      description: "(белое, крепленое)",
+      price: {
+        min: 240,
+        max: 1800,
+      },
+    },
+    {
+      name: "Портвейн",
+      description: "(белое / красное, крепленое)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+    {
+      name: "Мускатель",
+      description: "(белое, розовое, черное, десертное)",
+      price: {
+        min: 550,
+        max: 2750,
+      },
+    },
+      {
+      name: "Мускат БКК",
+      description: "(белое, десертное)",
+      price: {
+        min: 280,
+        max: 2100,
+      },
+    },
+      {
+      name: "Кагор",
+      description: "(белое, десертное)",
+      price: {
+        min: 200,
+        max: 1500,
+      },
+    },
+      {
+      name: "Бастардо",
+      description: "(красное, десертное)",
+      price: {
+        min: 240,
+        max: 1800,
+      },
+    },
+      {
+      name: "Жемчужина Массандры",
+      description: "(белое / красное, полусладкое)",
+      price: {
+        min: 160,
+        max: 1200,
+      },
+    },
+      {
+      name: "Алушта",
+      description: "(красное, сухое)",
+      price: {
+        min: 240,
+        max: 1800,
+      },
+    }
   ]
 }

@@ -13,8 +13,9 @@
 .logo {
     width: 10rem;
     position: absolute;
-    left: 10px;
+    left: -20px;
     top: 5px;
+    display: none;
 }
 
 .logo-img {
@@ -50,5 +51,9 @@ a {
 
     .nav-links {
         display: none;
+    }
+
+    .logo {
+        display: block;
     }
 }
