@@ -94,14 +94,14 @@ html {
   -webkit-box-align: start; 
   -ms-flex-align: start; 
   align-items: flex-start;
-  width: 80%;
+  flex-basis: 80%;
   text-align: initial;
 }
 
 .columns {
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  flex-basis: 25%;
 }
 
 .description {

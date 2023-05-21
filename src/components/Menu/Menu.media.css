@@ -1,6 +1,7 @@
 @media (max-width: 788px) {
   .menu {
-    width: 95%;margin-top: 70px;
+    width: 95%;
+    margin-top: 70px;
   }
 
   .main {
@@ -32,5 +33,13 @@
 
   .name {
     font-size: 1rem;
+  }
+
+  .item_name {
+    flex-basis: 50%;
+  }
+
+  .columns {
+    flex-basis: 45%;
   }
 }

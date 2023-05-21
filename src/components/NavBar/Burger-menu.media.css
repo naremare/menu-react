@@ -72,7 +72,7 @@
   }
   
   .burger-links {
-    transition: 1s;
+    transition: 0.3s;
     position: absolute;
     left: 0;
     top: 0;

@@ -16,7 +16,7 @@ h1 {
     position: relative;
     font-size: 3em;
     font-weight: 800;
-    margin-top: 8rem;
+    margin-top: 5rem;
     place-items: center;
 }
 
@@ -60,6 +60,13 @@ h1 {
     font-size: 1.5rem;
 }
 
+footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    text-align: center;
+}
 
 @media (max-width: 500px) {
     .grid-items {
