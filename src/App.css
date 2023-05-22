@@ -37,11 +37,11 @@ html {
 
 .components {
   z-index: 999;
-  transition: .3s;
+  transition: .5s;
 }
 
 .activate {
-  transition: .3s;
+  transition: .5s;
   transform: translateY(30dvh);
 }
 
@@ -128,6 +128,6 @@ html {
   color: rgb(154, 163, 158);
 }
 
-.menu .none {
+/* .menu .none {
   display: none;
-}
+} */
