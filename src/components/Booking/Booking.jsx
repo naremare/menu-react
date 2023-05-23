@@ -6,7 +6,7 @@ const Booking = () => {
   return (
     <div className="booking">
       <div className="contacts">
-        <h1>Наши контакты</h1>
+        <h2 className="contacts-titles">Наши контакты</h2>
         <br />
         <address>ул. Ленина, 9Б, г. Алушта</address>
         <br />
