@@ -4,7 +4,10 @@
 
 .burger-links {
     display: none;
-    position: absolute;
+}
+
+.none {
+  display: none;
 }
 
 @media (max-width: 788px) {
@@ -76,7 +79,7 @@
     left: 0;
     top: 0;
     right: 0;
-    bottom: 62dvh;
+    /* bottom: 50dvh; */
     padding-top: 40px;
     background: transparent;
     backdrop-filter: blur(10px);
