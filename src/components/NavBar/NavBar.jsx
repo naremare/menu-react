@@ -16,7 +16,7 @@ const NavBar = ({toggleMenu, isOpen}) => {
                 </svg>
             </div>
             <div className="nav-links">
-                <NavLink to="/menu-react">Главная</NavLink>
+                <NavLink to="/">Главная</NavLink>
                 <NavLink to="/menu">Меню</NavLink>
                 <NavLink to="/gallery">Галерея</NavLink>
                 <NavLink to="/booking">Бронирование</NavLink>
