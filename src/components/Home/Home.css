@@ -12,7 +12,8 @@ h1 {
 
 .home {
     display: grid;
-    height: 70dvh;
+    height: 65vh;
+    height: 65dvh;
     position: relative;
     font-size: 3em;
     font-weight: 800;

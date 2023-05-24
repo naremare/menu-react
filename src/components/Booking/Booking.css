@@ -1,8 +1,9 @@
 .booking {
-  height: 80vh;
-  height: 80dvh;
+  height: 70vh;
+  height: 70dvh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
 }
 
 h1 {
@@ -14,25 +15,31 @@ h1 {
   padding: 50px;
 }
 
-.hotel {
-  position: absolute;
-  left: 10px;
-  right: 10px;
-  bottom: 0;
-}
-
 .king {
   text-decoration: underline;
+}
+
+.hotel {
+    font-size: 1em;
+    position: relative;
+    bottom: -2rem;
+    left: 0;
+    right: 0;
+    grid-column-end: span 2;
 }
 
 @media (max-width: 37.5rem) {
   .booking {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    /* height: 70vh; */
+    grid-template-rows: 1fr 2fr 1fr;
+    margin-top: 0;
   }
 
   .contacts-titles {
     font-size: 1em;
+  }
+
+  .hotel {
+    grid-column-end: auto;
   }
 }
