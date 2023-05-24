@@ -12,8 +12,8 @@ html {
   height: "100vh";
   height: "100dvh";
   background-image: url("./assets/images/IMG_8309.WEBP");
-  background-repeat: "no-repeat";
-  background-size: "cover";
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-color {
