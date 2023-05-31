@@ -20,23 +20,30 @@ h1 {
 }
 
 .hotel {
-    font-size: 1em;
+    font-size: 0.7em;
     position: relative;
     bottom: -2rem;
     left: 0;
     right: 0;
     grid-column-end: span 2;
+    padding: 0;
 }
 
 @media (max-width: 37.5rem) {
   .booking {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr;
-    margin-top: 0;
+    /* margin-top: 0; */
   }
 
   .contacts-titles {
     font-size: 1em;
+  }
+
+  .contacts {
+    font-size: smaller;
+    padding: 0;
+    padding-bottom: 5px;
   }
 
   .hotel {
