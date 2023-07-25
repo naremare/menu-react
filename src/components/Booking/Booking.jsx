@@ -16,7 +16,11 @@ const Booking = () => {
         <p>
           Забронируйте столик по номеру:
           <br />
-          <a href="tel:79785548181">+7 (978) 554-81-81</a>
+          <a href="tel:79785548181">+7 (978) 554-81-81</a><br />
+          <a className='links' href="https://vk.com/nelli_rest" target="_blank" class="fa fa-vk"></a>
+          <a className='links' target="_blank" href="https://yandex.ru/maps/org/nelli/64754695744/?ll=34.413165%2C44.669674&z=15">
+          Яндекс
+          </a>
         </p>
       </div>
       <div className="map-wrapper">

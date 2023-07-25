@@ -24,7 +24,7 @@ html {
   height: 100vh;
   height: 100dvh;
   background: linear-gradient(rgba(0 0 0 / 80%), rgba(0 0 0 / 30%));
-  overflow: scroll;
+  overflow: auto;
   position: relative;
 }
 
@@ -33,6 +33,7 @@ html {
   height: 80vh;
   height: 80dvh;
   margin-top: 100px;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🥄</text></svg>") 16 0,auto;
 }
 
 .components {
@@ -61,14 +62,15 @@ html {
   -ms-flex-align: start; 
   align-items: flex-start;
   justify-content: space-between;
-  overflow-y: scroll;
+  overflow-y: auto;
   overscroll-behavior: contain;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>🥄</text></svg>") 16 0,auto;
 }
 
 .items {
   width: 80%;
   height: calc(100dvh - 130px);
-  overflow-y: scroll;
+  overflow-y: auto;
   overscroll-behavior: contain;
 }
 
@@ -82,7 +84,7 @@ html {
   justify-content: space-between;
   margin-bottom: 10px;
   transition: .5s;
-  border-bottom: 1px dotted var(--text-color);
+  border-bottom: 1px outset var(--text-color);
   padding-bottom: 7px;
 }
 

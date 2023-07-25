@@ -51,7 +51,8 @@ h1 {
 }
 
 .link {
-    padding: 20px;
+    width: 100%;
+    height: auto;
 }
 
 .cursive {

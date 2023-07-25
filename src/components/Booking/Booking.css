@@ -29,6 +29,18 @@ h1 {
     padding: 0;
 }
 
+.yandex {
+  border: 1px solid;
+  border-radius: 0;
+}
+
+.links {
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 0;
+  margin-left: 10px;
+}
+
 @media (max-width: 37.5rem) {
   .booking {
     grid-template-columns: 1fr;
