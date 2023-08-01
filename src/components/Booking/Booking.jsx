@@ -17,8 +17,9 @@ const Booking = () => {
           Забронируйте столик по номеру:
           <br />
           <a href="tel:79785548181">+7 (978) 554-81-81</a><br />
-          <a className='links' href="https://vk.com/nelli_rest" target="_blank" class="fa fa-vk" title="VK"></a>
-          <a className='links' target="_blank" href="https://yandex.ru/maps/org/nelli/64754695744/?ll=34.413165%2C44.669674&z=15" title="Yandex">
+          <a className='links' href="https://vk.com/nelli_rest" target="_blank" class="fa fa-vk" title="ссылка на VK" rel="noreferrer"><span class="sr-only">ссылка на ВК</span>
+</a>
+          <a className='links' target="_blank" href="https://yandex.ru/maps/org/nelli/64754695744/?ll=34.413165%2C44.669674&z=15" title="ссылка на Yandex" rel="noreferrer">
           Яндекс
           </a>
         </p>
@@ -27,7 +28,7 @@ const Booking = () => {
         <Maps />
       </div>
       <div className="hotel">
-        <p>Интересует проживание в гостинице? Приглашаем вас в нашу гостиницу <a href='https://alushta-king.com/' target={'_blank'} className="king">"Кинг"</a>(подробрости в ссылке)</p>
+        <p>Интересует проживание в гостинице? Приглашаем вас в нашу гостиницу <a href='https://alushta-king.com/' target={'_blank'} className="king" rel="noreferrer">"Кинг"</a>(подробрости в ссылке)</p>
         <p>Для гостей нашей гостиницы действует скидка 10% в ресторане "Нелли"</p>
         </div>
     </div>

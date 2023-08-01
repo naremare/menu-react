@@ -727,11 +727,6 @@ export const data = {
       serving: "250 / 30 г",
       price: 260,
     },
-    {
-      name: "Харчо с говядиной",
-      serving: "300 г",
-      price: 380,
-    },
   ],
   "Горячие напитки": [
     {
