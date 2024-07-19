@@ -795,7 +795,7 @@ export const data = {
     {
       name: "Апельсин",
       serving: "1 шт",
-      price: 100,
+      price: 150,
     },
     {
       name: "Лимон",
@@ -825,7 +825,7 @@ export const data = {
     {
       name: "Грейпфрут",
       serving: "1 шт",
-      price: 250,
+      price: 350,
     },
   ],
   "Горячие напитки": [
@@ -842,7 +842,7 @@ export const data = {
     {
       name: "Капучино",
       serving: "200 мл",
-      price: 230,
+      price: 180,
     },
     {
       name: "Капучино на растительном молоке",
@@ -854,7 +854,7 @@ export const data = {
       name: "Капучино XL",
       descriptopn: "(овсяное, кокосовое, соевое)",
       serving: "300 мл",
-      price: 300,
+      price: 270,
     },
     {
       name: "Латте",
@@ -870,7 +870,7 @@ export const data = {
     {
       name: "Гляссе",
       serving: "250 мл",
-      price: 220,
+      price: 250,
     },
     {
       name: "Какао",
