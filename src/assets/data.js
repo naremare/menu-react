@@ -287,11 +287,6 @@ export const data = {
       price: 250,
     },
     {
-      name: "Куриный бульон",
-      serving: "300 г",
-      price: 250,
-    },
-    {
       name: "Борщ с говядиной",
       serving: "300 / 30 г",
       price: 350,
@@ -378,11 +373,6 @@ export const data = {
       name: "Говядина с овощами",
       serving: "330 г",
       price: 700,
-    },
-    {
-      name: "Баранина по-пастушечьи",
-      serving: "300 г",
-      price: 950,
     },
     {
       name: "Свиные ребрышки, томленые в красном вине",
@@ -496,7 +486,7 @@ export const data = {
     {
       name: "Семга (стейк)",
       serving: "за 100 г",
-      price: 630,
+      price: 650,
     },
   ],
     Гарниры: [
@@ -1002,7 +992,7 @@ export const data = {
     {
       name: "Апельсин",
       serving: "250 мл",
-      price: 250,
+      price: 350,
     },
     {
       name: "Грейпфрут",
@@ -1069,14 +1059,20 @@ export const data = {
       name: "Стелла 0.45 мл",
       description: "(светлое, безалкогольное)",
       serving: " ",
-      price: 250,
+      price: 300,
+    },
+    {
+      name: "Стелла 0.45 мл",
+      description: "(светлое, алкогольное)",
+      serving: " ",
+      price: 300,
     },
     {
       name: "Крымская Ривьера",
       description: "(разливное, светлое)",
       price: {
-        min: 130,
-        max: 200,
+        min: 150,
+        max: 250,
       },
     },
     {
@@ -1108,30 +1104,38 @@ export const data = {
       price: 250,
     },
   ],
-  Коктейли: [
+  Шоты: [
     {
       name: "Б-52",
       description: "(Калуа, Бейлиз, Трипл сек)",
       serving: "60 мл",
-      price: 340,
+      price: 380,
     },
     {
       name: "Хиросима",
       description: "(Самбука, Бейлиз, Абсент, Гренадин)",
       serving: "60 мл",
-      price: 380,
+      price: 430,
     },
     {
       name: "Зеленый мексиканец",
       description: "(Пизан, фреш лимонный, Текила)",
       serving: "60 мл",
-      price: 300,
+      price: 350,
     },
+    {
+      name: "Бездна",
+      description: "(текила 'Бланко', 'Блю кюрасао', сливочный ликер, гренадин)",
+      serving: "60 мл",
+      price: 380,
+    }
+  ],
+  Коктейли: [
     {
       name: "Лонг-Айленд",
       description: "(Ром, Текила, водка, Джин, кола, Трипл сек)",
       serving: "450 мл",
-      price: 650,
+      price: 700,
     },
     {
       name: "Мохито",
@@ -1143,37 +1147,43 @@ export const data = {
       name: "Голубая лагуна",
       description: "(водка, Малибу, Блю кюрасао, Спрайт)",
       serving: "350 мл",
-      price: 380,
+      price: 470,
     },
     {
       name: "Текила Санрайз",
       description: "(текила, сок апельсиноый, Гренадин)",
       serving: "350 мл",
-      price: 520,
+      price: 580,
     },
     {
       name: "Гаваи",
       description: "(ром, Малибу, сок ананасовый, Блю кюрасао)",
       serving: "350 мл",
-      price: 520,
+      price: 580,
     },
     {
       name: "Джин Тоник",
       description: "(ром, Малибу, сок ананасовый, Блю кюрасао)",
       serving: "350 мл",
-      price: 420,
+      price: 480,
     },
     {
       name: "Виски кола",
       description: "(виски, кола)",
       serving: "350 мл",
-      price: 450,
+      price: 480,
+    },
+    {
+      name: "Черный русский",
+      description: "(водка, калуа)",
+      serving: "350 мл",
+      price: 500,
     },
     {
       name: "Секс на пляже",
       description: "(водка, персиковый ликер, сок клюквенный, апельсин)",
       serving: "350 мл",
-      price: 420,
+      price: 500,
     },
     {
       name: "Глинтвейн",
@@ -1185,7 +1195,7 @@ export const data = {
       name: "Самбука",
       description: "(Самбука, кофейные зерна)",
       serving: "50 мл",
-      price: 300,
+      price: 400,
     },
     {
       name: "Апероль Сауэр",
@@ -1194,10 +1204,16 @@ export const data = {
       price: 650,
     },
     {
+      name: "Апероль Шприц",
+      description: "(просекко, апероль, газировка, апельсин)",
+      serving: "180 мл",
+      price: 650,
+    },
+    {
       name: "Мартини Санрайз",
       description: "(Мартини, джин, сок апельсиновый, гренадин)",
       serving: "350 мл",
-      price: 470,
+      price: 570,
     },
     {
       name: "Мимоза",
@@ -1236,12 +1252,12 @@ export const data = {
     {
       name: "Мартини Бьянко",
       serving: " ",
-      price: 550
+      price: 400
     },
     {
       name: "Бейлиз",
       serving: " ",
-      price: 400
+      price: 550
     },    {
       name: "Бехеровка",
       serving: " ",
@@ -1295,72 +1311,72 @@ export const data = {
     {
       name: "Старый Крым 3*",
       price: {
-        min: 320,
-        max: 1600,
-      },
+        min: 360,
+        max: 1800,
+      }
     },
     {
       name: "Черный дуб 4*",
       price: {
-        min: 340,
-        max: 1700,
-      },
+        min: 380,
+        max: 1900,
+      }
     },
     {
       name: "Старый крым 5*",
       price: {
-        min: 360,
-        max: 1800,
-      },
+        min: 400,
+        max: 2000,
+      }
     }, 
     {
       name: "Коктебель 3*",
       price: {
-        min: 300,
-        max: 1500,
-      },
+        min: 340,
+        max: 1700,
+      }
     }, 
     {
       name: "Коктебель 5* Резерв",
       price: {
         min: 500,
         max: 2500,
-      },
+      }
     }, 
     {
       name: "Арарат (3 года)",
       price: {
-        min: 500,
-        max: 2500,
-      },
+        min: 600,
+        max: 3000,
+      }
     }, 
     {
       name: "Арарат (5 лет)",
       price: {
-        min: 600,
-        max: 3000,
-      },
+        min: 700,
+        max: 3500,
+      }
     }, 
     {
       name: "Ани (6 лет)",
       price: {
-        min: 700,
-        max: 3500,
-      },
+        min: 800,
+        max: 4000,
+      }
     }, 
     {
       name: "Ахтамар (10 лет)",
       price: {
         min: 1400,
         max: 7000,
-      },
+      }
     },
     {
       name: "Мартель VS",
       price: {
         min: 1400,
         max: 7000,
-      },
+      }
     }
   ], 
   "Инкерман": [
